@@ -7,6 +7,9 @@
   $length = count($jedi);
   echo "length: $length\n";
   $lastIndex = $length - 1;
-  echo "last jedi: " . $jedi[$lastIndex];
+  echo "last jedi: " . $jedi[$lastIndex] . "\n";
+
+  $chakraTypes = array("Naruto"=>"wind", "Sasuke"=>"fire", "Hashirama"=>"wood");
+  echo "Naruto: " . $chakraTypes["Naruto"];
 
 ?>
